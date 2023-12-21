@@ -59,10 +59,34 @@ In order to run this project you need:
 git clone https://github.com/Mike47ip/hello-world-one-app.git
 cd hello-rails-react
 ```
+To install dependencies, run:
+
+```sh
+npm install
+
+bundle install
 ```
-run
-rails server
-```
+
+Run the following commands to setup backend database:
+
+### `rails db:create`
+
+Creates the specified databases defined in your database configuration.
+
+### `rails db:migrate`
+
+Executes any pending database migrations, updating the database schema to the latest version.
+
+### `rails db:seed`
+
+Populates the database with predefined data, often used for seeding initial records or test data.
+
+### `npm run build`
+
+In the project directory, to launch the project, you can run:
+
+### `rails server`
+
 
 ### Run RSpec Tests
 
